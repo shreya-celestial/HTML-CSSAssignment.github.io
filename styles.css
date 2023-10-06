@@ -196,10 +196,13 @@ body {
     opacity: 0;
     min-width: 25%;
     min-height: 52.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .item5 .main1 .image-container *:hover {
-    opacity: 0.8;
+    opacity: 0.85;
 }
 
 .item5 .content {

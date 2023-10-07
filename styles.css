@@ -66,6 +66,7 @@ body {
 .item1 .main1 .content1 button:hover {
     background-color:rgb(94, 173, 161);
     color: aliceblue;
+    cursor: pointer;
 }
 
 .item2 {
@@ -203,6 +204,7 @@ body {
 
 .item5 .main1 .image-container *:hover {
     opacity: 0.85;
+    cursor: pointer;
 }
 
 .item5 .content {
@@ -217,6 +219,7 @@ body {
 .item5 .content:hover {
     background-color: #7c7b7b;
     color: white;
+    cursor: pointer;
 }
 
 .item6 {
@@ -368,6 +371,7 @@ body {
 .item10 .main1 button:hover {
     background-color:rgb(94, 173, 161);
     color: aliceblue;
+    cursor: pointer;
 }
 
 .item11 {
@@ -427,5 +431,9 @@ body {
     font-size: small;
     line-height: 20px;
 }
+
+.item11 .main2 li:hover, .item11 .main3 li:hover {
+    cursor: pointer;
+} 
 
 

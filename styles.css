@@ -76,7 +76,7 @@ body {
 }
 
 .item2 .main1 {
-    margin: 25px auto;
+    margin: 60px auto;
     max-width: 42%;
     text-align: center;
 }
@@ -221,22 +221,31 @@ body {
 
 .item6 {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
 .item6 .main1 {
-    margin: 25px auto;
-    max-width: 53%;
+    margin: 70px auto;
+    max-width: 75%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item6 .main1 h2 {
+    margin-bottom: 0;
 }
 
 .item6 .main1 p {
     opacity: 0.5;
+    max-width: 47%;
 }
 
 .item6 .main1 img{
     margin: 10px auto 25px;
+    width: 100%;
 }
 
 .item7 {
@@ -278,11 +287,10 @@ body {
     align-items: center;
     background-color: rgb(89 200 197);
     color: aliceblue;
-    padding: 20px 0px;
+    padding: 90px 0px;
 }
 
 .item8 .main1 {
-    margin: 25px auto;
     max-width: 52%;
     text-align: center;
 }
